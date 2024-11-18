@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Recipe book</title>
+        <meta charset="utf-8">
+	<! -----------------------------------------------------------------------------------------------
+    </head>   
+<style>
+hr {
+  border-top: 4px dashed #0066ff;
+}
+h1 {
+  color: black;
+  text-align: center;
+  font-family: Brush Script MT;
+  font-size: 65px;
+  text-shadow: 1px 1px 2px #0066ff, 0 0 25px #00bfff, 0 0 5px #00ffff;
+}
+img {border: 4px outset black;
+}
+table, th, td {
+  border: 1px solid;
+}
+#BRU {
+  background-color: #8c4f37;
+  border: 5px outset White;
+  color: White;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#BRU:hover {
+  background-color: white;
+  border: 5px outset #8c4f37;
+  color: #8c4f37;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#RA {
+  background-color: #fdae44;
+  border: 5px outset Black;
+  color: Black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#RA:hover {
+  background-color: #515254;
+  border: 5px outset #fdae44;
+  color: #fdae44;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#BER {
+  background-color: #d3d3d3;
+  border: 5px outset Black;
+  color: Black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#BER:hover {
+  background-color: Black;
+  border: 5px outset #d3d3d3;
+  color: #d3d3d3;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#PI {
+  background-color: #650909;
+  border: 5px outset White;
+  color: White;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#PI:hover {
+  background-color: white;
+  border: 5px outset #650909;
+  color: #650909;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#R {
+  border: 5px outset black;
+  background-color: #fdae44;
+  color: Black; 
+}
+#P {
+  border: 5px outset black;
+  background-color: #650909;
+  color: White;
+}
+#S {
+  border: 5px outset black;
+  background-color: #f6fcac;
+}
+#BR {
+	border: 5px outset Black;
+	Background-color: #8c4f37;
+}
+#BE {
+  border: 5px outset black;
+  background-color: #d3d3d3;
+}
+#SP {
+  background-color: #f6fcac;
+  border: 5px outset black;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#SP:hover {
+  background-color: #000;
+  border: 5px outset #f6fcac;
+  color: #f6fcac;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+</style>
+<! -----------------------------------------------------------------------------------------------------------
+    <body>
+        <h1>Evan's Recipe Book</h1>
+        
+        <h2>Contents:</h2>
+        
+        <ol>
+		<li><a href="#SPAGHETTI">Spaghetti</a>
+		<li><a href="#PIZZA">Pizza</a>
+		<li><a href="#BEEF">Beef Bourguignon</a>
+		<li><a href="#RAT">Ratatouille</a>
+		<li><a href="#BRUS">Balsamic Bruschetta</a>
+	
+        </ol>
+    <! -------------------------------------------------------------------------------------------------------    
+    <div>
+        <div id="S">
+        <h2 id="SPAGHETTI">Spaghetti</h2>
+        <img src="https://www.inspiredtaste.net/wp-content/uploads/2019/03/Spaghetti-with-Meat-Sauce-Recipe-1-1200.jpg" alt="Spaghetti" width="350">
+        <ul>
+            <li>Time: 45 Mins</li>
+            <li>Serves: 6 Servings</li>
+        </ul>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Ingredients</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr> <td>1 pound lean ground meat like beef, turkey, chicken or lamb</td> </tr>
+			<tr> <td>3 tablespoons olive oil</td> </tr>
+			<tr> <td>1 cup (130g) chopped onion</td> </tr>
+			<tr> <td>3 garlic cloves, minced (1 tablespoon)</td> </tr>
+			<tr> <td>2 tablespoons tomato paste</td> </tr>
+			<tr> <td>1/2 teaspoon dried oregano</td> </tr>
+			<tr> <td>Pinch crushed red pepper flakes</td> </tr>
+            <tr> <td>1 cup water, broth or dry red wine</td> </tr>
+            <tr> <td>1 (28-ounce) can crushed tomatoes</td> </tr>
+            <tr> <td>Salt and fresh ground black pepper</td> </tr>
+            <tr> <td>Handful fresh basil leaves, plus more for serving</td> </tr>
+            <tr> <td>12 ounces dried spaghetti or favorite pasta shape</td> </tr>
+            <tr> <td>1/2 cup shredded parmesan cheese</td> </tr>
+        <tr>
+            <th>Optional Ingredients</th>
+        </tr>
+            <tr> <td>2 to 3 teaspoons fish sauce</td> </tr>
+            <tr> <td>3 to 4 anchovy fillets, minced with some of their oil or use anchovy paste</td> </tr>
+            <tr> <td>Mushroom powder</td> </tr>
+            <tr> <td>Pinch sugar</td> </tr>
+            <tr> <td>1 leftover rind from a wedge of parmesan</td> </tr>
+		</tbody>
+        </table>
+    
+    <h2><strong>Steps</strong></h2>
+    <ol>
+        <li>Heat the oil in a large pot over medium-high heat (we use a Dutch oven). Add the meat and cook until browned, about 8 minutes. As the meat cooks, use a wooden spoon to break it into smaller crumbles.
+        <li>Add the onions and cook, stirring every once in a while, until softened, about 5 minutes.
+        <li>Stir in the garlic, tomato paste, oregano, and red pepper flakes and cook, stirring continuously for about 1 minute.
+        <li>Pour in the water and use a wooden spoon to scrape up any bits of meat or onion stuck to the bottom of the pot. Stir in the tomatoes, 3/4 teaspoon of salt, and a generous pinch of black pepper. Bring the sauce to a low simmer. Cook, uncovered, at a low simmer for 25 minutes. As it cooks, stir and taste the sauce a few times so you can adjust the seasoning accordingly (see notes for suggestions).
+        <li>About 15 minutes before the sauce finishes cooking, bring a large pot of salted water to a boil, and then cook pasta according to package directions, but check for doneness a minute or two before the suggested cooking time.
+        <li>Take the sauce off of the heat, and then stir in the basil. Toss in the cooked pasta, and then leave for a minute so that the pasta absorbs some of the sauce. Toss again, and then serve with parmesan sprinkled on top.
+    </ol>
+        
+    <a href="https://www.inspiredtaste.net/38940/spaghetti-with-meat-sauce-recipe/" id="SP" target="_blank">Spaghetti</a></p4>
+</div>
+<hr>
+<! --------------------------------------------------------------------------------------------------------------------
+<hr>
+<div>
+<div id="P">
+<h2 id="PIZZA">Pizza</h2>
+ <img src="https://www.allrecipes.com/thmb/8cLxmzYdeMpvdlSnuoPYy1xwZGA=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/70801_BrickOvenPizzaBrooklynStyle_ddmfs_3x4_3852-2ef5d5e09aa6401d8041dc0a32c8aa27.jpg" alt="Pizza" width="350">
+    
+	<ul>
+            <li>Time: 1 Hour
+            <li>Serves: 16
+	</ul>
+
+		<table>
+		<thead>
+			<tr>
+				<th>Ingredients</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr>
+				<th>Dough</th>
+			</tr>
+			<tr> <td>¼ cup warm water</td> </tr>
+			<tr> <td>1 teaspoon active dry yeast</td> </tr>
+			<tr> <td>1 cup cold water</td> </tr>
+			<tr> <td>1 teaspoon salt</td> </tr>
+			<tr> <td>3 cups bread flour</td> </tr>
+			<tr> <td>1 tablespoon extra-virgin olive oil</td> </tr>
+			
+		<tr>
+            <th>Toppings</th>
+        </tr>
+		<tr> <td>6 ounces low moisture mozzarella cheese, thinly sliced</td> </tr>
+		<tr> <td>½ teaspoon dried oregano</td> </tr>
+		<tr> <td>¼ teaspoon freshly ground black pepper</td> </tr>
+		<tr> <td>½ cup no salt added canned crushed tomatoes</td> </tr>
+		<tr> <td>2 tablespoons extra-virgin olive oil</td> </tr>
+		<tr> <td>6 leaves fresh basil, torn</td> </tr>
+	</tbody>
+	</table>
+	
+	
+<h2><strong>Steps</strong></h2>
+    <ol>
+        <li>Make the dough: Pour warm water into a large bowl, then sprinkle yeast over the top. Let stand for 5 minutes. Stir in cold water and salt. Stir in flour, 1 cup at a time until incorporated.
+        <li>Knead dough on a floured surface until smooth, about 10 minutes.
+        <li>Divide in half and form into two tight dough balls. Coat with olive oil and refrigerate in a sealed container for at least 16 hours. Be sure to use a big enough container to allow dough to rise.
+        <li>Make the pizzas: Remove dough from the refrigerator one hour prior to using.
+        <li>Preheat the oven, with a pizza stone on the lowest rack, to 550 degrees F (288 degrees C). Lightly dust a pizza peel with flour.
+	<li>Prepare the first pizza: Lightly dust one dough ball with flour and stretch gradually until about 14 inches in diameter, or about the size of the pizza stone. Place on the floured peel.
+	<li>Lay 1/2 of the mozzarella on the crust, then sprinkle 1/4 teaspoon oregano and 1/8 teaspoon pepper over the top. Randomly arrange 1/4 cup crushed tomatoes over the pizza, leaving some empty areas, then drizzle 1 tablespoon olive oil over top.
+	<li>With a quick back and forth jerk, make sure dough will release from the peel easily. Place the tip of the peel at the back of the preheated pizza stone, and remove the peel so that the pizza is left on the stone.
+	<li>Bake in the preheated oven until the crust begins to brown, 4 to 6 minutes.
+	<li>Slide the pizza onto the peel and remove from the oven; then slide off the peel onto a work surface. Sprinkle 1/2 of the basil leaves randomly over the pizza. Cut into wedges and serve.
+	<li><strong>If you like,</strong> Follow Steps 5 through 9 to make the second pizza.
+    </ol>
+        
+
+	<a href="https://www.allrecipes.com/recipe/70801/brick-oven-pizza-brooklyn-style/" id="PI" target="_blank">Pizza</a></p4>
+</div>
+<hr>
+<! ------------------------------------------------------------------------------------------------------------------------
+<hr>
+ <div>
+        <div id="BE">
+        <h2 id="BEEF">Beef Bourguignon</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSib_dlzdxKSQckFMGzOYSEc9g9yZ58kUxZLA&usqp=CAU" alt="Beef Bourguignon" width="350">
+        <ul>
+            <li>Time: 45 Mins</li>
+            <li>Serves: 6 Servings</li>
+        </ul>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Ingredients</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr> <td>1 tablespoons extra-virgin olive oil</td> </tr>
+			<tr> <td>6 ounces (170g) bacon, roughly chopped</td> </tr>
+			<tr> <td>3 pounds (1 1/2 kg) beef brisket, trimmed of fat (chuck steak or stewing beef) cut into 2-inch chunks</td> </tr>
+			<tr> <td>1 large carrot sliced 1/2-inch thick</td> </tr>
+			<tr> <td>1 large white onion, diced</td> </tr>
+			<tr> <td>6 cloves garlic, minced (divided)</td> </tr>
+			<tr> <td>1 pinch coarse salt and freshly ground pepper</td> </tr>
+            		<tr> <td>2 tablespoons flour</td> </tr>
+            		<tr> <td>12 small pearl onions (optional)</td> </tr>
+           		<tr> <td>3 cups red wine like Merlot, Pinot Noir, or a Chianti -- for a milder sauce, use only 2 cups of wine</td> </tr>
+            		<tr> <td>2-3 cups beef stock (if using 2 cups of wine, use 3 cups beef stock)</td> </tr>
+           		<tr> <td>2 tablespoons tomato paste</td> </tr>
+           		<tr> <td>1 beef bullion cube, crushed</td> </tr>
+			<tr> <td>1 teaspoon fresh thyme, finely chopped</td> </tr>
+			<tr> <td>2 tablespoons fresh parsley, finely chopped (divided)</td> </tr>
+			<tr> <td>2 bay leaves</td> </tr>
+			<tr> <td>1 pound fresh small white or brown mushrooms, quartered</td> </tr>
+			<tr> <td>2 tablespoons butter</td> </tr>
+		</tbody>
+        </table>
+    
+    <h2><strong>Steps</strong></h2>
+    <ol>
+	<h4>TRADITIONAL OVEN METHOD:</h4>
+	<li>Preheat oven to 350°F (175°C).
+	<li>Heat the oil in a large dutch oven or heavy based pot. Sauté the bacon over medium heat for about 3 minutes, until crisp and browned. Transfer with a slotted spoon to a large dish and set aside.
+	<li>Pat dry beef with paper towel; sear in batches in the hot oil/bacon fat until browned on all sides. Remove to the dish with the bacon.
+	<li>In the remaining oil/bacon fat, sauté the carrots and diced onions until softened, (about 3 minutes), then add 4 cloves minced garlic and cook for 1 minute. Drain excess fat (leave about 1 tablespoon in the pan) and return the bacon and beef back into the pot; season with 1/2 teaspoon coarse salt and 1/4 teaspoon ground pepper. Sprinkle with flour, toss well and cook for 4-5 minutes to brown.
+	<li>Add the pearl onions, wine and enough stock so that the meat is barely covered. Then add the tomato paste, bullion and herbs. Bring to a simmer on the stove.
+	<li>Cover, transfer to lower part of the oven and simmer for 2 to 3 hours, or until the meat is fall apart tender (adjust the heat so that the liquid simmers very slowly).
+	<li><em>In the last 5 minutes of cooking time, prepare your mushrooms:</em>
+	Heat the butter in a medium-sized skillet/pan over heat. When the foam subsides, add the remaining 2 cloves garlic and cook until fragrant (about 30 seconds), then add in the mushrooms. Cook for about 5 minutes, while shaking the pan occasionally to coat with the butter. Season with salt and pepper, if desired. Once they are browned, set aside.
+	<li>Place a colander over a large pot (I do this in my clean kitchen sink). Remove the casserole from the oven and carefully empty its contents into the colander (you want to collect the sauce only). Discard the herbs
+	<li>Return the beef mixture back into the dutch oven or pot. Add the mushrooms over the meat.
+	<li>Remove any fat off the sauce( if any) and simmer for a minute or two, skimming off any additional fat which rises to the surface.
+	<li>You should be left with about 2 1/2 cups of sauce thick enough to coat the back of a spoon lightly. 
+	<li>If the sauce is too thick, add a few tablespoons of stock. If the sauce is too thin, boil it over medium heat for about 10 minutes, or until reduced to the right consistency.
+	<li>Taste for seasoning and adjust salt and pepper, if desired. Pour the sauce over the meat and vegetables.
+	<li>If you are serving immediately, simmer the beef bourguignon for 2 to 3 minutes to heat through.
+	Garnish with parsley and serve with mashed potatoes, rice or noodles.
+	<li>To serve the following day, allow the casserole to cool completely, cover and refrigerate.
+	The day of serving, remove from refrigerator for at least an hour before reheating. Place over medium-low heat and let simmer gently for about 10 minutes, basting the meat and vegetables with the sauce.
+	<h4>STOVE TOP BEEF BOURGUIGNON:</h4>
+	<li>In a large dutch oven or heavy based pot, sauté the bacon over medium heat in 1 tablespoon of oil for about 3 minutes, until crisp and browned. Transfer with a slotted spoon to a large dish and set aside.
+	<li>Pat dry beef with paper towel; sear in batches in the hot oil/bacon fat until browned on all sides. Remove to the dish with the bacon.
+	<li>In the remaining oil/bacon fat, sauté the carrots and diced onions until softened, (about 3 minutes), then add 4 cloves minced garlic and cook for 1 minute. Drain excess fat and return the bacon and beef back into the pot; season with 1/2 teaspoon coarse salt and 1/4 teaspoon ground pepper. Sprinkle with flour, toss well and cook for 4-5 minutes to brown.
+	<li>Add the pearl onions, wine and enough stock so that the meat is barely covered. Then add the tomato paste, bullion and herbs. Cover and bring to a boil, then reduce heat to low and simmer for 1 1/2 to 2 hours, stirring occasionally, until the meat is falling apart.
+	<li><em>In the last 5 minutes of cooking time, prepare your mushrooms:</em> Heat the butter in a medium-sized skillet/pan over heat. When the foam subsides, add the remaining 2 cloves garlic and cook until fragrant (about 30 seconds), then add in the mushrooms. Cook for about 5 minutes, while shaking the pan occasionally to coat with the butter. Season with salt and pepper, if desired.
+	<li>Add browned mushrooms to the pot, let simmer for an additional 3 to 5 minutes, stirring occasionally, to combine.
+	<li>Garnish with parsley and serve with mashed potatoes, rice or noodles.
+	<h4>INSTANT POT BEEF BOURGUIGNON / PRESSURE COOKER:</h4>
+	<li>Set Instant Pot or Cooker to SEAR function (or use a pan on the stove over medium heat of you wish). Sauté the bacon in 1 tablespoon of oil until crisp and browned. Remove with a slotted spoon and set aside.
+	<li>Pat dry beef with paper towel; sear in batches until browned on all sides in the oil/bacon fat. 
+	<li>Return bacon to the pot. Season with 1/2 teaspoon coarse salt and 1/4 teaspoon ground pepper. Sprinkle with flour, toss well and cook on SEAR for a further 4-5 minutes to brown.
+	<li>Add in the onions, pearl onions, carrots, wine, 2 cups of stock, tomato paste, 4 cloves minced garlic, bullion and herbs. Stir well, cover and lock the lid into place. Press Keep Warm/Cancel to stop the Sauté function, then set to MANUAL mode. Choose HIGH PRESSURE for 30 minutes cook time. 
+	<li>After cooking, allow the pressure to release naturally for 8-10 minutes. Open the valve and allow and remaining steam to escape (for Instant Pot, turn the valve from sealing to venting to release the pressure).
+	<li>While steam is releasing, prepare your buttered mushrooms <em>(OPTIONAL -- or add them straight in without cooking in butter if desired): </em> Heat the butter in a medium-sized skillet/pan over medium heat. Add the remaining 2 cloves garlic and cook until fragrant (about 30 seconds), then add in the mushrooms. Cook for about 5 minutes, while shaking the pan occasionally to coat with the butter. Season with salt and pepper, if desired. Set aside.
+	<h4>SLOW COOKER BEEF BOURGUIGNON:</h4>
+	<li>In a large pan or skillet, sauté the bacon over medium heat in 1 tablespoon of oil for about 3 minutes, until crisp and browned. Transfer to 6 quart (litre) slow cooker bowl.
+	<li>Pat dry beef with paper towel; sear in batches until browned on all sides in the oil/bacon fat. Transfer to slow cooker bowl with the bacon, and add in the onions (both types) and carrots. Season with 1/2 teaspoon coarse salt and 1/4 teaspoon ground pepper, tossing well to combine.
+	<li>Pour the red wine into the pan or skillet and allow to simmer for 4-5 minutes, then whisk in the flour until free from lumps. Allow to reduce and thicken slightly, then pour it into the slow cooker along with 2 cups of stock, tomato paste, garlic, bullion and herbs.
+	<li>Mix well to combine all of the ingredients. Cook on high heat setting for 6 hours or low for 8 hours, or until beef is falling apart and tender.
+	<li><em>In the last 5 minutes of cooking time, prepare your mushrooms:</em> Heat the butter in a medium-sized skillet/pan over medium heat. Add the remaining 2 cloves garlic and cook until fragrant (about 30 seconds), then add in the mushrooms. Cook for about 5 minutes, while shaking the pan occasionally to coat with the butter. Season with salt and pepper, if desired. Add to the Beef Bourguignon, mixing them through the sauce before serving.
+	<li>Garnish with fresh parley and serve with mashed potatoes, rice or noodles.
+
+    </ol>
+        
+    <a href="https://cafedelites.com/beef-bourguignon/#recipe" id="BER" target="_blank">Beef  Bourguignon</a></p4>
+</div>
+<hr>
+<! ------------------------------------------------------------------------------------------------------------------
+<hr> 
+<div>
+        <div id="R">
+        <h2 id="RAT">Ratatouille</h2>
+        <img src="https://www.howtocook.recipes/wp-content/uploads/2021/05/Ratatouille-recipe.jpg" alt="Ratatouille" width="350">
+        <ul>
+            <li>Time: 1 Hour</li>
+            <li>Serves: 4 Servings</li>
+        </ul>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Ingredients</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr> <td>2 tablespoons olive oil, divided</td> </tr>
+			<tr> <td>3 cloves garlic, minced</td> </tr>
+			<tr> <td>1 eggplant, cut into 1/2 inch cubes</td> </tr>
+			<tr> <td>2 teaspoons dried parsley</td> </tr>
+			<tr> <td>salt to taste</td> </tr>
+			<tr> <td>1 cup grated Parmesan cheese</td> </tr>
+			<tr> <td>2 zucchini, sliced</td> </tr>
+			<tr> <td>2 large tomatoes, chopped</td> </tr>
+			<tr> <td>2 cups sliced fresh mushrooms</td> </tr>
+			<tr> <td>1 large onion, sliced into rings</td> </tr>
+			<tr> <td>1 green or red bell pepper, sliced</td> </tr>
+
+		</tbody>
+        </table>
+    
+    <h2><strong>Steps</strong></h2>
+    <ol>
+        <li>Preheat the oven to 350 degrees F (175 degrees C). Coat the bottom and sides of a 1 1/2-quart casserole dish with 1 tablespoon olive oil.
+        <li>Heat remaining 1 tablespoon olive oil in a medium skillet over medium heat. Cook and stir garlic until fragrant and golden brown. Add eggplant and parsley; cook and stir until eggplant is tender and soft, about 10 minutes. Season with salt to taste.
+	<li>Spread eggplant mixture evenly across the bottom of the prepared casserole dish; sprinkle with a few tablespoons of Parmesan cheese. Spread zucchini in an even layer over top. Lightly salt and sprinkle with a little more cheese. Continue layering in this fashion, with tomatoes, mushrooms, onion, and bell pepper, covering each layer with a sprinkling of salt and cheese.
+	<li>Bake in preheated oven until vegetables are tender, about 45 minutes.
+    </ol>
+        
+     <a href="https://www.allrecipes.com/recipe/18411/ratatouille/" id="RA" target="_blank">Ratatouille</a></p4>
+</div>
+<hr>
+<! ---------------------------------------------------------------------------------------------------------
+<hr> 
+<div>
+        <div id="BR">
+        <h2 id="BRUS">Balsamic Bruschetta</h2>
+        <img src="https://natashaskitchen.com/wp-content/uploads/2020/07/Tomato-Bruschetta-Recipe-7.jpg" alt="Bruschetta" width="350">
+        <ul>
+            <li>Time: 20 Minutes</li>
+            <li>Serves: 8 Servings</li>
+        </ul>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Ingredients</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr> <td>1 loaf French bread, cut into 1/4-inch slices</td> </tr>
+			<tr> <td>1 tablespoon extra-virgin olive oil</td> </tr>
+			<tr> <td>8 roma (plum) tomatoes, diced</td> </tr>
+			<tr> <td>⅓ cup chopped fresh basil</td> </tr>
+			<tr> <td>1 ounce Parmesan cheese, freshly grated</td> </tr>
+			<tr> <td>2 cloves garlic, minced</td> </tr>
+			<tr> <td>1 tablespoon good quality balsamic vinegar</td> </tr>
+			<tr> <td>2 teaspoons extra-virgin olive oil</td> </tr>
+			<tr> <td>¼ teaspoon kosher salt</td> </tr>
+			<tr> <td>¼ teaspoon freshly ground black pepper</td> </tr>
+
+		</tbody>
+        </table>
+    
+    <h2><strong>Steps</strong></h2>
+    <ol>
+		<li>Gather all ingredients.
+		<li>Preheat oven to 400 degrees F (200 degrees C).
+		<li>Brush bread slices on both sides lightly with 1 tablespoon oil and place on large baking sheet. Toast bread until golden, 5 to 10 minutes, turning halfway through.
+		<li>Meanwhile, toss together tomatoes, basil, Parmesan cheese, and garlic in a bowl.
+		<li>Mix in balsamic vinegar, 2 teaspoons olive oil, kosher salt, and pepper.
+		<li>Spoon tomato mixture onto toasted bread slices.
+		<li>Serve immediately and enjoy!
+    </ol>
+        
+     <a href="https://www.allrecipes.com/recipe/54165/balsamic-bruschetta/" id="BRU" target="_blank">Balsamic Bruschetta</a></p4>
+</div>
+
+</body>
+
+</html>
+
+<!--- Spaghetti : https://www.inspiredtaste.net/38940/spaghetti-with-meat-sauce-recipe/
+<!--- Pizza : https://www.allrecipes.com/recipe/70801/brick-oven-pizza-brooklyn-style/
+<!--- beef bourguignon : https://cafedelites.com/beef-bourguignon/#recipe
+<!--- ratatouille : https://www.allrecipes.com/recipe/18411/ratatouille/
+<!--- Balsamic bruschetta : https://www.allrecipes.com/recipe/54165/balsamic-bruschetta/
