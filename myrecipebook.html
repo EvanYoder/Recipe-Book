@@ -22,6 +22,28 @@ border: 4px outset black;
 table, th, td {
   border: 1px solid;
 }
+
+#TOPB {
+  background-color: #0066ff;
+  border: 5px outset White;
+  color: White;
+  padding: 6px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 2px 1px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#TOPB:hover {
+  background-color: white;
+  border: 5px outset #0066ff;
+  color: #0066ff;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 #BRU {
   background-color: #8c4f37;
   border: 5px outset White;
@@ -181,10 +203,67 @@ border: 4px outset white;
   color: #f6fcac;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+#TRE {
+ border: 5px outset black;
+ background-color: #ab7e4c;
+color: white;
+}
+#TRESIM {
+border: 4px outset white;
+}
+#TRES {
+  background-color: #ab7e4c;
+  border: 5px outset white;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#TRES:hover {
+  background-color: white;
+  border: 5px outset #ab7e4c;
+  color: #ab7e4c;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#ENCH {
+border: 5px outset black;
+background-color: #f59a9a;
+color:white;
+}
+#EN {
+  background-color: #f59a9a;
+  border: 5px outset white;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#EN:hover {
+  background-color: white;
+  border: 5px outset #f59a9a;
+  color: #f59a9a;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#ENCHIM {
+border: 4px outset white;
+}
 </style>
 <! -----------------------------------------------------------------------------------------------------------
     <body>
-        <h1>Evan's Recipe Book</h1>
+
+        <h1 id="TOP">Evan's Recipe Book</h1>
         
 	
 	<h2>Suggestions:<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdRAkluEzJnLaZLa6hKYOrM_WZWC0VWeaCgRO6LKoGYIWtUQA/viewform?embedded=true" width="640" height="300" frameborder="5" marginheight="0" marginwidth="0">Loading…</iframe><h2>
@@ -197,6 +276,8 @@ border: 4px outset white;
 		<li><a href="#RAT">Ratatouille</a>
 		<li><a href="#BRUS">Balsamic Bruschetta</a>
 		<li><a href="#BANGERS">Bangers and Mash</a>
+		<li><a href="#TRESL">Tres Leches</a>
+		<li><a href="#ENCHILADA">Enchiladas</a>
 	
         </ol>
     <! -------------------------------------------------------------------------------------------------------    
@@ -252,6 +333,7 @@ border: 4px outset white;
     </ol>
         
     <a href="https://www.inspiredtaste.net/38940/spaghetti-with-meat-sauce-recipe/" id="SP" target="_blank">Spaghetti</a>
+    <a id="TOPB" href="#TOP">Back to the Top</a>
 </div>
 <hr>
 <! --------------------------------------------------------------------------------------------------------------------
@@ -313,6 +395,7 @@ border: 4px outset white;
         
 
 	<a href="https://www.allrecipes.com/recipe/70801/brick-oven-pizza-brooklyn-style/" id="PI" target="_blank">Pizza</a>
+        <a id="TOPB" href="#TOP">Back to the Top</a>
 </div>
 <hr>
 <! ------------------------------------------------------------------------------------------------------------------------
@@ -402,6 +485,7 @@ border: 4px outset white;
     </ol>
         
     <a href="https://cafedelites.com/beef-bourguignon/#recipe" id="BER" target="_blank">Beef  Bourguignon</a>
+    <a id="TOPB" href="#TOP">Back to the Top</a>
 </div>
 <hr>
 <! ------------------------------------------------------------------------------------------------------------------
@@ -447,6 +531,7 @@ border: 4px outset white;
     </ol>
         
      <a href="https://www.allrecipes.com/recipe/18411/ratatouille/" id="RA" target="_blank">Ratatouille</a>
+     <a id="TOPB" href="#TOP">Back to the Top</a>
 </div>
 <hr>
 <! ---------------------------------------------------------------------------------------------------------
@@ -494,6 +579,7 @@ border: 4px outset white;
     </ol>
         
      <a href="https://www.allrecipes.com/recipe/54165/balsamic-bruschetta/" id="BRU" target="_blank">Balsamic Bruschetta</a>
+     <a id="TOPB" href="#TOP">Back to the Top</a>
 </div>
 <hr>
 <! --------------------------------------------------------------------------------------------------
@@ -537,7 +623,118 @@ border: 4px outset white;
 		<li>Serve sausages with mashed potatoes; pour onion gravy on top.
     </ol>
         
-     <a href="https://www.allrecipes.com/recipe/216071/true-bangers-and-mash-with-onion-gravy/" id="BANG" target="_blank">Bangers and Mash</a></p4>
+     <a href="https://www.allrecipes.com/recipe/216071/true-bangers-and-mash-with-onion-gravy/" id="BANG" target="_blank">Bangers and Mash</a>
+     <a id="TOPB" href="#TOP">Back to the Top</a>
+</div>
+<hr>
+<! --------------------------------------------------------------------
+<hr>
+<div>
+        <div id="TRE">
+        <h2 id="TRESL">Tres Leches</h2>
+        <img id="TRESIM"src="https://www.allrecipes.com/thmb/wN1JHZ98qJBDo1mkSv1EymSutIA=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7399-tres-leches-milk-cake-ddmfs-beauty-4x3-BG-25699-342a9c33649b439884f0edab17fdacf2.jpg" alt="Tres Leches" width="350">
+        <ul>
+            <li>Time: 1 Hour</li>
+            <li>Servings: 24 Servings for a 19x13-inch cake</li>
+        </ul>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Ingredients</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr> <td>1 ½ Cups All-Purpose Flour</td> </tr>
+			<tr> <td>1 Teaspoon Baking Powder</td> </tr>
+			<tr> <td>½ Cup Unsalted Butter</td> </tr>
+			<tr> <td>1 Cup White Sugar</td> </tr>
+			<tr> <td>5 Eggs</td> </tr>
+			<tr> <td>½ Teaspoon Vanilla Extract</td> </tr>
+			<tr> <td>2 Cups Whole Milk</td> </tr>
+			<tr> <td>1 (14 Ounce) Can Sweetened Condensed Milk</td> </tr>
+			<tr> <td>1 (12 Fluid Ounce) Can Evaporated Milk</td> </tr>
+			<tr> <td>1 ½ Cups Heavy Whipping Cream</td> </tr>
+			<tr> <td>1 Cup White Sugar</td> </tr>
+			<tr> <td>1 Teaspoon Vanilla Extract</td> </tr>
+		</tbody>
+        </table>
+    
+    <h2><strong>Steps</strong></h2>
+    <ol>
+		<li>Gather the ingredients.
+		<li>Preheat the oven to 350 degrees F (175 degrees C). Grease and flour a 9x13-inch baking pan.
+		<li>Sift flour and baking powder together; set aside.
+		<li>Beat sugar and butter together in a large bowl with an electric mixer until light and fluffy. Add eggs and vanilla; beat well. Add flour mixture, about 1/2 cup at a time, mixing until well blended.
+		<li>Pour batter into the prepared pan.
+		<li>Bake in the preheated oven until a toothpick inserted into the center comes out clean, about 30 minutes. Pierce cake all over with a fork; let cool to room temperature.
+		<li>Mix whole milk, condensed milk, and evaporated milk together in a bowl.
+		<li>Pour the whole milk, condensed milk, and evaporated milk mixture over the top of the cooled cake and allow to soak in.
+		<li>Whip cream, remaining 1 cup of sugar, and 1 teaspoon vanilla in a chilled glass or metal bowl with an electric mixer until thick.
+		<li>Spread over the top of the filling.
+		<li>Keep cake refrigerated until serving. Enjoy!
+    </ol>
+        
+     <a href="https://www.allrecipes.com/recipe/7399/tres-leches-milk-cake/" id="TRES" target="_blank">Tres Leches</a>
+     <a id="TOPB" href="#TOP">Back to the Top</a>
+</div>
+<hr>
+<! ----------------------------------------------------------------------------------------
+<hr>
+<div>
+        <div id="ENCH">
+        <h2 id="ENCHILADA">Enchiladas</h2>
+        <img id="ENCHIM" src="https://www.allrecipes.com/thmb/PCGdN1YkNgXHVi6XTBztpCvwOWg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/83549-angelas-awesome-enchiladas-ddmfs-4x3-0894-dd127d7b2112467cbfc3f1a83c9beab3.jpg" alt="Enchilada" width="350">
+        <ul>
+            <li>Time: 1 Hour and 55 Minutes</li>
+            <li>Servings: 8 Servings for a 19x13-inch dish</li>
+        </ul>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Ingredients</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr> <td>2 Pounds Skinless, Boneless Chicken Breast Meat - Cut into Chunks</td> </tr>
+			<tr> <td>1 ¼ Cups Sour Cream</td> </tr>
+			<tr> <td>1 (10.5 Ounce) Can condensed Cream of Chicken Soup</td> </tr>
+			<tr> <td>¼ Teaspoon Chili Powder</td> </tr>
+			<tr> <td>1 Tablespoon Butter</td> </tr>
+			<tr> <td>1 Small Onion, Chopped</td> </tr>
+			<tr> <td>1 Cup Water</td> </tr>
+			<tr> <td>1 Bunch Green Onions, Chopped, Divided</td> </tr>
+			<tr> <td>1 (4 Ounce) Can Chopped Green Chiles, Drained</td> </tr>
+			<tr> <td>1 (1.25 Ounce) Package Mild Taco Seasoning Mix</td> </tr>
+			<tr> <td>1 Teaspoon Lime Juice</td> </tr>
+			<tr> <td>½ Teaspoon Onion Powder</td> </tr>
+			<tr> <td>½ Teaspoon Garlic Powder</td> </tr>
+			<tr> <td>5 (12 Inch) Flour Tortillas</td> </tr>
+			<tr> <td>3 Cups Shredded Cheddar Cheese</td> </tr>
+			<tr> <td>1 (10 Ounce) Can Enchilada Sauce</td> </tr>
+			<tr> <td>1 (6 Ounce) Can Sliced Black Olives, Drained</td> </tr>
+		</tbody>
+        </table>
+    
+    <h2><strong>Steps</strong></h2>
+    <ol>
+		<li>Place chicken into a large pot and add water to cover. Bring to a boil over high heat, then reduce the heat to medium-low, cover, and simmer until chicken is no longer pink and the juices run clear, about 10 minutes.
+		<li>Remove from the pot and let sit until cool enough to handle, 5 to 10 minutes. Shred chicken with two forks.
+		<li>Combine sour cream, condensed soup, and chili powder in a saucepan. Bring to a simmer, stirring occasionally, then turn off the heat and cover to keep warm.
+		<li>At the same time, melt butter in a skillet over medium heat. Add onion; cook and stir until translucent, about 5 minutes. Add shredded chicken, water, 1/2 of the green onions, green chiles, and taco seasoning; simmer for 10 minutes. Stir in lime juice, onion powder, and garlic powder; simmer for 10 more minutes.
+		<li>Preheat the oven to 350 degrees F (175 degrees C).
+		<li>Stir 1 cup soup mixture into the skillet with the chicken. Spread remaining soup mixture over the bottom of a 9x13-inch baking dish.
+		<li>Fill each tortilla with 1/5 of the chicken mixture and about 5 tablespoons Cheddar cheese.
+		<li>Roll tortillas around filling and place enchiladas, seam-side down, into the baking dish. Pour enchilada sauce over top and sprinkle with remaining Cheddar, remaining green onions, and olives.
+		<li>Bake in the preheated oven until filling is heated through and cheese is melted and bubbling, about 25 minutes.
+		<li>Eat and Enjoy!
+    </ol>
+        
+     <a href="https://www.allrecipes.com/recipe/83549/angelas-awesome-enchiladas/" id="EN" target="_blank">Enchiladas</a> 
+     <a id="TOPB" href="#TOP">Back to the Top</a>
 </div>
 
 
@@ -551,3 +748,4 @@ border: 4px outset white;
 <!--- ratatouille : https://www.allrecipes.com/recipe/18411/ratatouille/
 <!--- Balsamic bruschetta : https://www.allrecipes.com/recipe/54165/balsamic-bruschetta/
 <!--- Bangers and Mash : https://www.allrecipes.com/recipe/216071/true-bangers-and-mash-with-onion-gravy/
+<!--- Tres Leches : https://www.allrecipes.com/recipe/7399/tres-leches-milk-cake/
